@@ -1,3 +1,6 @@
+* {
+  margin: 0px;
+}
 .body1 {
   background-image: linear-gradient(100deg, #2ebd0ad2, #f7f461ec);
 
@@ -11,7 +14,7 @@
   background-position: center;
   background-size: cover;
   color: white;
-  min-height: 30vh;
+  height: 400px;
   justify-content: center;
   padding-right: 20px;
   line-height: 100%;
@@ -19,10 +22,11 @@
   border-radius: 3px;
 }
 .linea {
-  height: 500px;
+  height: 370px;
   width: 8px;
   background-color: #b9b9b9de;
   border-width: 0;
+  padding: 0px;
 }
 .navbar {
   background-color: transparent;
@@ -39,17 +43,14 @@
 
 .w-100 {
   height: 559px;
- 
 }
 .w1-100 {
-  height: 500px;
+  height: 400px;
   justify-content: center;
   align-items: center;
   text-align: center;
   line-height: 100%;
-  
 }
-
 
 .temas {
   text-align: center;
@@ -63,17 +64,21 @@ h2 {
   padding: 0px 20px;
   font-family: "Alfa Slab One", cursive;
 }
+
+/*-----tu marca preferida*/
 .container_pref {
-  width: 100%;
-  height: 40vh;
-  max-width: 90%;
-  margin-top: 20px;
+  width: 90%;
+  height: 120px;
+  max-width: 100%;
+  margin-top: 30px;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   text-align: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  padding: 0px 0px 200px 0px;
 }
+
 .preferencia {
   width: 180px;
   height: 100px;
@@ -185,12 +190,17 @@ h1 {
   color: #f2f3f1;
   text-align: left;
 }
+/*---los mejores precios*/
+.titul3 {
+  margin-top: 270px;
+}
+
 .info1 {
   width: 300px;
   height: 400px;
   color: #f2f3f1;
   text-align: left;
-  padding: 200px 20px 60px 20px;
+  padding: 150px 20px 60px 20px;
   line-height: 100%;
   font-size: 13px;
   justify-content: left;
@@ -214,49 +224,50 @@ h1 {
   text-align: center;
   border: transparent;
 }
-.prod{
-    margin-top: 10px;
+.prod {
+  margin-top: 5px;
 }
 
 /*--------prouctos recomendados*/
-.cards-wrapper{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    padding-top: 40px;
-    font-size: 10px;
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 40px;
+  font-size: 10px;
 }
-.row-rec{
-   justify-content: center;
-   text-align: center;
-   padding-top: 60px;
+.row-rec {
+  justify-content: center;
+  text-align: center;
+  padding-top: 60px;
 }
-.tema1{
-    padding-top: 1px;
+.tema1 {
+  padding-top: 1px;
 }
-.card-r{
-    margin: 0.7px;
-    width: calc(100%/4);
-    background-color: rgba(250, 250, 250, 0.815);
-    border-radius: 10px;
-    margin-top: 10px;
-    font-size: 10px;
+.card-r {
+  margin: 0.7px;
+  width: calc(100% / 4);
+  background-color: rgba(250, 250, 250, 0.815);
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 10px;
 }
 
-.body3{
-    background-color: white;
+.body3 {
+  background-color: white;
+  height: 100px;
 }
-.btnconsulta1{
-    width: 70px;
-    height: 30px;
-    border-radius: 50px;
-    outline: auto;
+.btnconsulta1 {
+  width: 70px;
+  height: 30px;
+  border-radius: 50px;
+  outline: auto;
 }
 
 /*----------------------------*/
-.card-p{
-    margin: 0.10px;
+.card-p {
+  margin: 0.1px;
 }
 /*boton buscar*/
 .buscar {
@@ -329,15 +340,13 @@ h1 {
 }
 /*pob categoria*/
 
-.card {
-  background: linear-gradient(180deg, #dbf37163, #31f8318a);
-}
 .categorias {
   width: 105%;
-  height: 80vh;
+  height: 510px;
   background-repeat: no-repeat;
-  background-image: url("img/Gamer.jpg");
-  padding: 200px 0px 0px 0px;
+  background: linear-gradient(rgba(3, 238, 3, 0.815), rgba(238, 255, 4, 0.801)),
+    url("img/Gamer.jpg");
+  padding: 200px 40px 10px 40px;
   background-position: center;
   color: #ffffff;
   background-size: cover;
@@ -346,28 +355,30 @@ h1 {
   cursor: pointer;
   text-align: center;
   justify-content: center;
-  line-height: 60%;
-  margin-top: 100px;
 }
-.categoria.categorias img {
-  width: 100%;
-  height: 100%;
-  transition: all 500ms ease-out;
+.categoria-trescol-1 {
+  padding-top: 50px;
+}
+
+.categoriasrec1 {
+  padding: 175px 40px 0px 40px;
+}
+.categoriasrec1 .texto1 {
+  padding: 8px 0px 0px 0px;
 }
 
 .capa {
   width: 500px;
-  height: 100px;
+  height: 95px;
 
   color: white;
   position: absolute;
-  background-image: linear-gradient(180drg, greenyellow, yellow);
   transition: all 500ms ease-out;
   opacity: 0;
   visibility: hidden;
   justify-content: center;
   text-align: center;
-  padding: 100px;
+  padding: 100px 30px 0px 30px;
   line-height: 100%;
 }
 .categoria .categorias:hover > .capa {
@@ -389,6 +400,7 @@ h1 {
 .texto1 {
   font-size: 12px;
   font-family: "Times New Roman", Times, serif;
+  padding: 13px 0px 0px 0px;
 }
 .btnleer {
   border-radius: 40px;
@@ -399,6 +411,10 @@ h1 {
   height: 38px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
+  margin-top: 2px;
+}
+.btnleer a {
+  color: #eceaea;
 }
 .btnconsulta {
   background-color: #bbf058;
@@ -440,6 +456,10 @@ h1 {
 .celdas {
   padding-top: 3px;
   font-size: 12px;
+  padding: 0px 2px 0px 2px;
+}
+.bx-registered {
+  width: 10px;
 }
 
 .im {
@@ -456,12 +476,13 @@ h1 {
 }
 
 .it-1 {
-  height: 70px;
-  margin: 2px;
-  background-color: #fbfbff;
+  height: 60px;
   justify-content: center;
-  padding-top: 12px;
+  padding: 0px 0px 20px 0px;
+  background-color: #fbfbff;
+  padding-top: 5px;
   text-align: center;
+  margin: 5px;
 }
 .texto-v {
   color: #5aeb17;
@@ -469,48 +490,63 @@ h1 {
 
 .it-2 {
   height: 70px;
-  margin: 2px;
   background-color: #fbfbff;
   justify-content: left;
   text-align: left;
-  padding-top: 12px;
+  padding-top: 7px;
+  margin: 5px;
 }
 
 .it-3 {
   background-color: #f8f8f4a2;
   justify-content: left;
   text-align: left;
- 
+  font-family: "Fjalla One", sans-serif;
+}
+.it-4 {
+  justify-content: left;
+  text-align: left;
+  padding: 5px 0px 20px 0px;
+}
+
+.titulo-cat2 {
+  width: 130px;
 }
 
 .cel1,
 .cel2 {
   background-color: #f8f8f1;
-  padding: 5px;
+  padding: 10px;
   border-color: rgb(231, 228, 228);
 }
-.it-tel1{
-margin: 10px;
+.it-tel1 {
+  margin-top: 10px;
 }
-.im-tel{
+.im-tel {
   width: 40px;
 }
-.logo1{
-  
-  background-color: #88f556;
-  width: 30px;
-  border-radius: 50px;
-}
-.it-logo{
-  padding-top: 50px;  
-background-color: transparent;
-}
-.foter-letras1{
-  padding-top: 60px;
-  font-size: 15px;
-  
+
+.it-logo {
+  padding: 15px 0px 10px 0px;
+  background-color: transparent;
+  justify-content: end;
+  text-align: right;
 }
 
+.foter-letras-ti {
+  padding-top: 20px;
+  margin: 0px 0px 20px 0px;
+}
+.foter-letras1 {
+  font-size: 15px;
+  padding-top: 13px;
+  text-align: left;
+  justify-content: left;
+}
+.targetas {
+  background-color: white;
+  margin: 10px;
+}
 /*------------footer-------*/
 
 footer {
@@ -519,20 +555,19 @@ footer {
   background-color: rgb(78, 75, 75);
   margin-top: 250px;
 }
-.foter-letras{
-    color: white;
+.foter-letras {
+  color: white;
+
 }
-.img-cliente{
-    width: 90px;
-    height: 100px;
-    color: white;
-    
+.img-cliente {
+  width: 90px;
+  height: 100px;
+  color: white;
 }
-.palabra-abajo{
-    margin-top: 150px;
-  
+.palabra-abajo {
+  margin-top: 190px;
 }
-.titulo1-foter{
+.titulo1-foter {
   margin-top: 50px;
 }
 /*--------------*/
